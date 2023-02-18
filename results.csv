@@ -1,0 +1,16 @@
+,LogReg,XGBC,SVC,KNN
+split0_test_score,88.04347826086956,91.84782608695652,91.30434782608695,91.84782608695652
+split1_test_score,83.69565217391305,85.86956521739131,84.23913043478261,85.32608695652173
+split2_test_score,86.33879781420765,84.15300546448088,82.5136612021858,85.79234972677595
+split3_test_score,88.52459016393442,84.15300546448088,81.4207650273224,84.69945355191257
+split4_test_score,75.95628415300546,77.04918032786885,75.40983606557377,80.32786885245902
+mean_test_score,84.51176051318603,84.61451651223568,82.97754811119032,85.59871703492516
+std_test_score,4.599480534268889,4.72347776819052,5.115392725708088,3.6811329804197643
+split0_recall_score,84.31,90.2,90.2,92.16
+split1_recall_score,77.45,79.41,79.41,81.37
+split2_recall_score,97.03,97.03,96.04,96.04
+split3_recall_score,91.09,90.1,91.09,90.1
+split4_recall_score,70.3,72.28,77.23,82.18
+mean_recall_score,84.04,85.8,86.79,88.37
+std_recall_score,9.5,8.8,7.23,5.72
+params,"{'LogReg__C': 0.5, 'LogReg__fit_intercept': False, 'LogReg__l1_ratio': 0, 'LogReg__penalty': 'elasticnet'}","{'XGBC__gamma': 0, 'XGBC__learning_rate': 0.15, 'XGBC__max_depth': 6, 'XGBC__min_child_weight': 8, 'XGBC__reg_lambda': 4, 'XGBC__subsample': 1, 'XGBC__tree_method': 'gpu_hist', 'XGBC__use_label_encoder': False}","{'SVC__C': 1, 'SVC__class_weight': None, 'SVC__degree': 2, 'SVC__gamma': 'scale', 'SVC__kernel': 'poly'}","{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 100, 'KNN__weights': 'uniform'}"
